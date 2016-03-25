@@ -1,0 +1,62 @@
+/* Body Section of Layout */
+#container {
+  width: 100%;
+  margin: 0;
+  height: 400px;
+}
+
+/* Header Section */
+#header {
+  background-color: #b4a8d5;
+  height: 100px;
+}
+
+/* Header Logo */
+#header_left {
+  float: left
+  width: 50px;
+  height: 50px;
+}
+
+/* Header Sign In Section */
+#header_right {
+  float: right;
+  display: inline;
+  margin: 20px 50px 10px 0px;
+}
+
+/* Login Section */
+.header_right_login {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.header_right_login label{
+  color: white;
+}
+
+.header_right_login input{
+  box-shadow: 1px 1px 1px #888888;
+}
+
+/* Login Button */
+#login_button {
+  background-color: #a0c6f6;
+  font-size: 10px;
+  color: white;
+}
+
+/* */
+footer {
+  margin: 20px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 0.8em;
+  padding-bottom: 10px;
+}
+
+/* */
+
+
+/* */
