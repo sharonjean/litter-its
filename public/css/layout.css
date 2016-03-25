@@ -38,6 +38,19 @@
 
 .header_right_login input{
   box-shadow: 1px 1px 1px #888888;
+  border-radius: 10%;
+}
+
+.header_right_login input[type="password"]{
+  box-shadow: 1px 1px 1px #888888;
+  border-radius: 10%;
+  width: 120px;
+}
+
+.header_right_login input[type="text"]{
+  box-shadow: 1px 1px 1px #888888;
+  border-radius: 10%;
+  width: 120px;
 }
 
 /* Login Button */
@@ -57,6 +70,16 @@ footer {
   font-size: 0.8em;
   padding-bottom: 10px;
   display: inline-block;
+}
+
+.footer_link {
+  color: #b4a8d5;
+
+}
+
+.footer_link:hover {
+  color: purple;
+
 }
 
 /* ------------------------------------------------ */
@@ -90,7 +113,7 @@ footer {
 
 .fields_email {
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   padding: 5px 0px 5px 0px;
   margin: 10px 0px 5px 0px;
 }
@@ -110,15 +133,17 @@ footer {
 
 .fields_name {
   display: inline;
-  font-size: 14px;
-  width: 170px;
+  font-size: 16px;
+  width: 173px;
   padding: 5px 0px 5px 0px;
+  border-radius: 2%;
 }
 
 /* Sign up Email Section */
 
 #signup_email input[type="text"], input[type="password"] {
     width: 350px;
+    border-radius: 2%;
 }
 
 /* Sign up Birthday Section */
@@ -153,6 +178,7 @@ footer {
     display: inline-block;
     font-size: 16px;
     box-shadow: 1px 1px 1px #888888;
+    border-radius: 10%;
 }
 
 /* ------------------------------------------------ */
@@ -171,4 +197,12 @@ footer {
   margin: 30px 0px 0px 50px;
 }
 
+#signup_body-left div {
+  margin: 60px 0px 30px 90px;
+}
+
+#signup_body-left h2 {
+  margin: -40px 0px 0px 100px;
+  font-size: 1.4em;
+}
 

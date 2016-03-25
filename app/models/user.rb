@@ -1,9 +1,7 @@
 class User < ActiveRecord::Base
+  # Remember to create a migration!
   validates :first_name, :last_name, :user_name, :email, :password_hash, presence: true
   validates :user_name, :email, uniqueness: true
-
-  has_many :followees, class_name: 'User', through: 'followerships', foreign_key: 'follower_id'
-  has_many :followers, class_name: 'User', through: 'followerships', foreign_key: 'followee_id'
 
   def password
     @password ||= BCrypt::Password.new(password_hash)
