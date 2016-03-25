@@ -36,7 +36,8 @@ delete '/users/:id' do
 end
 
 post '/users/login' do
-  user = User.find_by(email: params[:email])
+
+  user = User.find_by(email: params[:user][:email])
   if user.authenticate(params[:password])
     session[:user_id] = user.id
     session[:name] = user.full_name
