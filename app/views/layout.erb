@@ -22,20 +22,26 @@
       <img src="../files/twitter.png"
     </div>
     <div id="header_right">
-      <div class="header_right_login">
-        <label>Email</label><br>
-        <input type="text" name="user_name">
-      </div>
-      <div class="header_right_login">
-        <label>Password</label><br>
-        <input type="text" name="password">
-      </div>
-      <div class="header_right_login">
-        <input type="submit" value="Login" id="login_button">
-      </div>
+      <form action="/" method="post">
+        <div class="header_right_login">
+          <label>Email</label><br>
+          <input type="text" name="user_name">
+        </div>
+        <div class="header_right_login">
+          <label>Password</label><br>
+          <input type="text" name="password">
+        </div>
+        <div class="header_right_login">
+          <input type="submit" value="Login" id="login_button">
+        </div>
+      </form>
     </div>
   </header>
+
+
   <%= yield %>
+
+
   <footer>
         <a href="mailto:info@sepandassadi.com"><img src="../files/gmail-w.jpg" onmouseover="this.src='../files/gmail-c.jpg'" onmouseout="this.src='../files/gmail-w.jpg'" alt="email" /></a>
         <a href="https://www.facebook.com/"><img src="../files/fb-w.png" onmouseover="this.src='../files/fb-c.png'" onmouseout="this.src='../files/fb-w.png'" alt="facebook"></a>
