@@ -28,11 +28,11 @@ get '/users/:id/edit' do
 end
 
 put '/users/:id' do
-
+  #future development option
 end
 
 delete '/users/:id' do
-
+  #future development option
 end
 
 post '/users/login' do
