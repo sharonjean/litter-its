@@ -14,6 +14,8 @@
   <script src="/js/bootstrap.min.js"></script>
   <script src="/js/application.js"></script> -->
   <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/profile.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <title>Litter-its</title>
 </head>
 <body id="container">
@@ -22,14 +24,14 @@
       <img src="../files/twitter.png"
     </div>
     <div id="header_right">
-      <form action="/users/login" method="post">
+      <form action="/users/:id" method="post">
         <div class="header_right_login">
           <label>Email</label><br>
-          <input type="text" name="email">
+          <input type="text" name="user_name">
         </div>
         <div class="header_right_login">
           <label>Password</label><br>
-          <input type="text" name="password">
+          <input type="password" name="password">
         </div>
         <div class="header_right_login">
           <input type="submit" value="Login" id="login_button">
@@ -43,11 +45,12 @@
 
 
   <footer>
-        <a href="mailto:info@sepandassadi.com"><img src="../files/gmail-w.jpg" onmouseover="this.src='../files/gmail-c.jpg'" onmouseout="this.src='../files/gmail-w.jpg'" alt="email" /></a>
-        <a href="https://www.facebook.com/"><img src="../files/fb-w.png" onmouseover="this.src='../files/fb-c.png'" onmouseout="this.src='../files/fb-w.png'" alt="facebook"></a>
-        <a href="https://www.linkedin.com/"><img src="../files/link-w.jpg" onmouseover="this.src='../files/link-c.png'" onmouseout="this.src='../files/link-w.jpg'" alt="linkedin"></a>
-        <a href="https://twitter.com/"><img src="../files/twitter-b.jpg" onmouseover="this.src='../files/twitter-c.png'" onmouseout="this.src='../files/twitter-b.jpg'" alt="twitter"></a>
-        <a href="https://plus.google.com/"><img src="../files/google-w.jpg" onmouseover="this.src='../files/google-c.jpg'" onmouseout="this.src='../files/google-w.jpg'" alt="google+"></a>
+        <a class="footer_link" href="mailto:#"><i class="fa fa-envelope-square fa-3x"></i></a>
+        <a class="footer_link" href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-3x"></i></a>
+        <a class="footer_link" href="https://www.linkedin.com/"><i class="fa fa-linkedin-square fa-3x"></i></a>
+        <a class="footer_link" href="https://twitter.com/"><i class="fa fa-twitter-square fa-3x"></i></a>
+        <a class="footer_link" href="https://plus.google.com/"><i class="fa fa-google-plus-square fa-3x"></i></a>
+        <a class="footer_link" href="https://github.com/sharonjean/litter-its"><i class="fa fa-github-square fa-3x"></i></a>
         <p>Copyright© ReRun 2016</p>
     </footer>
 </body>
