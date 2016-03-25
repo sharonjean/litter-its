@@ -17,13 +17,9 @@ end
 
 
 delete '/lits' do
-<<<<<<< HEAD
-
-=======
   @lit.find_by(id: params[:id])
   @lit.destroy
   redirect '/lits'
->>>>>>> b0912a2c5226ee1d32822ef608dbd18976a2d50d
 end
 
 
