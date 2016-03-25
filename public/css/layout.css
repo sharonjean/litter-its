@@ -2,7 +2,8 @@
 #container {
   width: 100%;
   margin: 0;
-  height: 400px;
+  height: 1000px;
+  background-color: #edf0f5;
 }
 
 /* Header Section */
@@ -46,77 +47,128 @@
   color: white;
 }
 
-/* */
+/* Footer Section*/
 footer {
-  margin: 400px;
-  background-color: white;
+  margin: 0 auto;
+  margin: 50px 0px 0px 500px;
+  background-color: #edf0f5;
   color: black;
   text-align: center;
   font-size: 0.8em;
   padding-bottom: 10px;
+  display: inline-block;
 }
 
 /* ------------------------------------------------ */
-/*  */
+/* Index Page */
+
+/* Body Section */
 #body_container {
   width: 100%;
   margin: 0;
 }
 
-
-/*  */
+/* ------------------------------------------------ */
+/* Sign up Section Right*/
 #signup_right {
   float: right;
-  margin: 40px 300px 20px 50px;
+  margin: 40px 200px 20px 50px;
 
 }
 
-/*  */
+/* Sign Up Section Left */
 #signup_left {
   float: left;
 
 }
 
-/*  */
+/* Sign Up Title Section */
 #signup_title {
   margin: 0 auto;
 
 }
 
-.fields {
+.fields_email {
   display: block;
   font-size: 14px;
+  padding: 5px 0px 5px 0px;
+  margin: 10px 0px 5px 0px;
 }
 
 #signup_title h2 {
   font-size: 2.5em;
 }
-/*  */
+
+#signup_title h3 {
+  margin-top: -20px;
+}
+/* Sign Up Name Section */
 #signup_name {
   font-size: 14px;
+  padding: 0px 5px 5px 0px;
 }
 
-/*  */
-
-#signup_email input[type="text"] {
-    width: 250px;
+.fields_name {
+  display: inline;
+  font-size: 14px;
+  width: 170px;
+  padding: 5px 0px 5px 0px;
 }
 
-#signup_email input[type="password"] {
-    width: 250px;
+/* Sign up Email Section */
+
+#signup_email input[type="text"], input[type="password"] {
+    width: 350px;
 }
 
-/*  */
+/* Sign up Birthday Section */
 #signup_birthday {
-
+  margin: 30px 0px 20px 0px;
 }
 
-/*  */
-#signup_gender {
+#signup_birthday h4 {
+  margin-bottom: -0.5px;
+}
 
+
+/* Sign up Gender Section */
+#signup_gender {
+  margin: 30px 0px 15px 0px;
 }
 /*  */
 #signup_disclaimer {
-
+  margin: 30px 0px 15px 0px;
 }
+
+#signup_disclaimer h5{
+ line-height: 0px;
+}
+
+#input_button {
+  background-color: #b7d6aa; /* Green */
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px #888888;
+}
+
+/* ------------------------------------------------ */
+/* Section Left*/
+
+#signup_title_left {
+  margin: 100px 0px 0px 100px;
+}
+
+#signup_title_left h1{
+  font-size: 2em;
+  line-height: 0px;
+}
+
+#signup_body-left img {
+  margin: 30px 0px 0px 50px;
+}
+
 
